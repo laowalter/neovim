@@ -1,11 +1,10 @@
 vim.o.shortmess = vim.o.shortmess .. "c"
-vim.o.completeopt = "menuone,noselect"
-require'lspconfig'.pyright.setup{on_attach=require'completion'.on_attach}
-require'lspconfig'.gopls.setup{
-    on_attach= require'completion'.on_attach;
-    settings = {
-        --completeopt={menuone,noinsert,noselect};
-        --vim.o.shortmess=vim.o.shortmess .. c;
-    };
-    root_dir = require'lspconfig'.util.root_pattern(".git", "go", "gomod")
-}
+vim.o.completeopt = "menuone,noinsert,noselect"
+vim.g.completion_matching_strategy_list = {"exact", "substring", "fuzzy", "all"}
+
+require('lsp.lua')
+require('lsp.gopls') --golang
+require('lsp.pyright') --python by npm -i pyright
+require('lsp.html') --html
+require('lsp.tsserver')
+require('lsp.cssls') -- css

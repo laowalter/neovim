@@ -29,4 +29,8 @@ return require('packer').startup(function()
   -- Fugitive for Git
   use { 'tpope/vim-fugitive' }
 
+  --Track the engine.
+  --use { 'SirVer/ultisnips' }
+  --use { 'honza/vim-snippets' }
+
 end)

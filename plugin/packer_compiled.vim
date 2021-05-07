@@ -92,6 +92,22 @@ _G.packer_plugins = {
     needs_bufread = false,
     path = "/home/walter/.local/share/nvim/site/pack/packer/opt/packer.nvim"
   },
+  ["plenary.nvim"] = {
+    loaded = true,
+    path = "/home/walter/.local/share/nvim/site/pack/packer/start/plenary.nvim"
+  },
+  ["popup.nvim"] = {
+    loaded = true,
+    path = "/home/walter/.local/share/nvim/site/pack/packer/start/popup.nvim"
+  },
+  ["telescope.nvim"] = {
+    loaded = true,
+    path = "/home/walter/.local/share/nvim/site/pack/packer/start/telescope.nvim"
+  },
+  ultisnips = {
+    loaded = true,
+    path = "/home/walter/.local/share/nvim/site/pack/packer/start/ultisnips"
+  },
   ["vim-dispatch"] = {
     loaded = true,
     path = "/home/walter/.local/share/nvim/site/pack/packer/start/vim-dispatch"
@@ -99,6 +115,10 @@ _G.packer_plugins = {
   ["vim-fugitive"] = {
     loaded = true,
     path = "/home/walter/.local/share/nvim/site/pack/packer/start/vim-fugitive"
+  },
+  ["vim-snippets"] = {
+    loaded = true,
+    path = "/home/walter/.local/share/nvim/site/pack/packer/start/vim-snippets"
   }
 }
 
