@@ -79,6 +79,10 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/walter/.local/share/nvim/site/pack/packer/start/gruvbox-material"
   },
+  ["julia-vim"] = {
+    loaded = true,
+    path = "/home/walter/.local/share/nvim/site/pack/packer/start/julia-vim"
+  },
   ["nlua.nvim"] = {
     loaded = true,
     path = "/home/walter/.local/share/nvim/site/pack/packer/start/nlua.nvim"

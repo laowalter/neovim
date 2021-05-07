@@ -30,7 +30,9 @@ return require('packer').startup(function()
   use { 'tpope/vim-fugitive' }
 
   --Track the engine.
-  --use { 'SirVer/ultisnips' }
-  --use { 'honza/vim-snippets' }
+  use { 'SirVer/ultisnips' }
+  use { 'honza/vim-snippets' }
 
+  --Java Lsp
+  --use{ 'JuliaEditorSupport/julia-vim' }
 end)
