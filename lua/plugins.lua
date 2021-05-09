@@ -7,7 +7,9 @@ return require('packer').startup(function()
   use {'wbthomason/packer.nvim', opt = true}
 
   -- Color scheme
-  use { 'sainnhe/gruvbox-material' }
+  --use { 'sainnhe/gruvbox-material' }
+  use { 'vim-airline/vim-airline' }
+  use { 'vim-airline/vim-airline-themes' }
 
   -- Fuzzy finder
   use {

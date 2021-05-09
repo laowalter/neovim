@@ -10,4 +10,3 @@ require('lsp.tsserver')
 require('lsp.css')     --css
 require('lsp.bash')    --bash
 require('lsp.json')    --json
-require('lsp.java')    --java
