@@ -75,9 +75,13 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/walter/.local/share/nvim/site/pack/packer/start/completion-nvim"
   },
-  ["gruvbox-material"] = {
+  fzf = {
     loaded = true,
-    path = "/home/walter/.local/share/nvim/site/pack/packer/start/gruvbox-material"
+    path = "/home/walter/.local/share/nvim/site/pack/packer/start/fzf"
+  },
+  ["fzf.vim"] = {
+    loaded = true,
+    path = "/home/walter/.local/share/nvim/site/pack/packer/start/fzf.vim"
   },
   ["nlua.nvim"] = {
     loaded = true,
@@ -87,26 +91,26 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/walter/.local/share/nvim/site/pack/packer/start/nvim-lspconfig"
   },
+  ["nvim-lspfuzzy"] = {
+    loaded = true,
+    path = "/home/walter/.local/share/nvim/site/pack/packer/start/nvim-lspfuzzy"
+  },
   ["packer.nvim"] = {
     loaded = false,
     needs_bufread = false,
     path = "/home/walter/.local/share/nvim/site/pack/packer/opt/packer.nvim"
   },
-  ["plenary.nvim"] = {
-    loaded = true,
-    path = "/home/walter/.local/share/nvim/site/pack/packer/start/plenary.nvim"
-  },
-  ["popup.nvim"] = {
-    loaded = true,
-    path = "/home/walter/.local/share/nvim/site/pack/packer/start/popup.nvim"
-  },
-  ["telescope.nvim"] = {
-    loaded = true,
-    path = "/home/walter/.local/share/nvim/site/pack/packer/start/telescope.nvim"
-  },
   ultisnips = {
     loaded = true,
     path = "/home/walter/.local/share/nvim/site/pack/packer/start/ultisnips"
+  },
+  ["vim-airline"] = {
+    loaded = true,
+    path = "/home/walter/.local/share/nvim/site/pack/packer/start/vim-airline"
+  },
+  ["vim-airline-themes"] = {
+    loaded = true,
+    path = "/home/walter/.local/share/nvim/site/pack/packer/start/vim-airline-themes"
   },
   ["vim-dispatch"] = {
     loaded = true,

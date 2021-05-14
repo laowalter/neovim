@@ -17,5 +17,4 @@ require('plugins')
 -- LSP
 require('lsp')
 
-
 vim.cmd 'autocmd BufWritePost plugins.lua PackerCompile' -- Auto compile when there are changes in plugins.lua
