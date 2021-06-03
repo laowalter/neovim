@@ -83,6 +83,10 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/walter/.local/share/nvim/site/pack/packer/start/fzf.vim"
   },
+  ["julia-vim"] = {
+    loaded = true,
+    path = "/home/walter/.local/share/nvim/site/pack/packer/start/julia-vim"
+  },
   ["nlua.nvim"] = {
     loaded = true,
     path = "/home/walter/.local/share/nvim/site/pack/packer/start/nlua.nvim"
@@ -95,14 +99,18 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/walter/.local/share/nvim/site/pack/packer/start/nvim-lspfuzzy"
   },
+  ["nvim-treesitter"] = {
+    loaded = true,
+    path = "/home/walter/.local/share/nvim/site/pack/packer/start/nvim-treesitter"
+  },
+  ["nvim-ts-rainbow"] = {
+    loaded = true,
+    path = "/home/walter/.local/share/nvim/site/pack/packer/start/nvim-ts-rainbow"
+  },
   ["packer.nvim"] = {
     loaded = false,
     needs_bufread = false,
     path = "/home/walter/.local/share/nvim/site/pack/packer/opt/packer.nvim"
-  },
-  ultisnips = {
-    loaded = true,
-    path = "/home/walter/.local/share/nvim/site/pack/packer/start/ultisnips"
   },
   ["vim-airline"] = {
     loaded = true,
@@ -120,9 +128,9 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/walter/.local/share/nvim/site/pack/packer/start/vim-fugitive"
   },
-  ["vim-snippets"] = {
+  ["vim-gnupg"] = {
     loaded = true,
-    path = "/home/walter/.local/share/nvim/site/pack/packer/start/vim-snippets"
+    path = "/home/walter/.local/share/nvim/site/pack/packer/start/vim-gnupg"
   }
 }
 

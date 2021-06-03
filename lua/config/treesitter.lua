@@ -1,0 +1,3 @@
+rainbow={
+  enable = true
+}

@@ -34,10 +34,17 @@ return require('packer').startup(function()
   -- Fugitive for Git
   use { 'tpope/vim-fugitive' }
 
-  --Track the engine.
-  use { 'SirVer/ultisnips' }
-  use { 'honza/vim-snippets' }
+
+  -- gpg2
+  use { 'jamessan/vim-gnupg' }
 
   --Java Lsp
-  --use{ 'JuliaEditorSupport/julia-vim' }
+  use{ 'JuliaEditorSupport/julia-vim' }
+  
+  -- Treesitter
+  use { 'nvim-treesitter/nvim-treesitter', run=':TSUpdate'}
+
+  -- Rainbow | | | tab split notes
+  use { 'p00f/nvim-ts-rainbow' }
+
 end)
