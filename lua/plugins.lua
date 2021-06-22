@@ -47,4 +47,7 @@ return require('packer').startup(function()
   -- Rainbow | | | tab split notes
   use { 'p00f/nvim-ts-rainbow' }
 
+  -- Auto Pair
+  use { 'jiangmiao/auto-pairs' }
+
 end)
